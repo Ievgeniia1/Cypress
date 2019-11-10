@@ -1,0 +1,20 @@
+var Hyperwallet = require('hyperwallet-node');
+var client = new Hyperwallet({ username: 'testuser@12345678', password: 'myAccPassw0rd' });
+
+client.createBankAccount("usr-c4292f1a-866f-4310-a289-b916853939de", {
+  "profileType": "BUSINESS",
+  "transferMethodCountry": "US",
+  "transferMethodCurrency": "USD",
+  "type": "WIRE_ACCOUNT",
+  "branchId": "102000021",
+  "bankAccountId": "123456789",
+  "bankAccountPurpose": "SAVINGS",
+  "businessName": "Company ABC",
+  "country": "US",
+  "stateProvince": "WA",
+  "addressLine1": "123 Main Street",
+  "city": "Hometown",
+  "postalCode": "12345"
+}, function(error, body) {
+  // handle response body here
+});

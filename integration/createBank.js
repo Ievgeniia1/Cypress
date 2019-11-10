@@ -30,10 +30,27 @@ describe('Crete Bank Account', function() {
 
     cy.get(`#${this.data.type}`,{timeout: 10000}).click();
     cy.wait(5000);
+
+    //function (filename, selector)
     cy.readFile('cypress/fixtures/javaRequest.txt').then(function (data) {
-      console.log(data);
-        cy.get('pre.language-java').should('have.text', data.trim());
-      });
+      cy.get('pre.language-java').should('have.text', data.trim());
+    });
+
+
+    //this prints data to console to copy from there
+    cy.get('pre.language-javascript').then(function (data1) {
+      console.log('eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee');
+      console.log((data1).text().trim());
+    });
+
+    cy.readFile('cypress/fixtures/phpRequest.txt').then(function (data2) {
+      cy.get('pre.language-php').should('have.text', data2.trim());
+    });
+
+    cy.readFile('cypress/fixtures/nodeRequest.txt').then(function (data3) {
+      cy.get('pre.language-javascript').should('have.text', data3.trim());
+    });
+
 
   });
 
