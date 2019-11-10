@@ -1,0 +1,17 @@
+$hyperwallet = new Hyperwallet("testuser@12345678", "myAccPassw0rd");
+
+$response = $hyperwallet->createBankAccount("usr-c4292f1a-866f-4310-a289-b916853939de", (new \Hyperwallet\Model\BankAccount())
+  ->setProfileType("BUSINESS")
+  ->setTransferMethodCountry("US")
+  ->setTransferMethodCurrency("USD")
+  ->setType("BANK_ACCOUNT")
+  ->setBranchId("101089292")
+  ->setBankAccountId("7861012345")
+  ->setBankAccountPurpose("SAVINGS")
+  ->setBusinessName("Company ABC")
+  ->setCountry("US")
+  ->setStateProvince("WA")
+  ->setAddressLine1("123 Main Street")
+  ->setCity("Hometown")
+  ->setPostalCode("12345")
+);

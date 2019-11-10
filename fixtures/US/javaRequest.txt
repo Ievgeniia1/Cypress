@@ -1,0 +1,17 @@
+Hyperwallet hyperwallet = new Hyperwallet("testuser@12345678", "myAccPassw0rd");
+
+HyperwalletBankAccount response = hyperwallet.createBankAccount("usr-c4292f1a-866f-4310-a289-b916853939de", new HyperwalletBankAccount()
+  .profileType("BUSINESS")
+  .transferMethodCountry("US")
+  .transferMethodCurrency("USD")
+  .type("BANK_ACCOUNT")
+  .branchId("101089292")
+  .bankAccountId("7861012345")
+  .bankAccountPurpose("SAVINGS")
+  .businessName("Company ABC")
+  .country("US")
+  .stateProvince("WA")
+  .addressLine1("123 Main Street")
+  .city("Hometown")
+  .postalCode("12345")
+);

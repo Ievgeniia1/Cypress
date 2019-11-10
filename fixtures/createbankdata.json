@@ -2,6 +2,6 @@
 "countryName": "United States",
 "transferMethodCountry": "US",
 "transferMethodCurrency": "USD",
-"profileType": "INDIVIDUAL",
-"type": "WIRE_ACCOUNT"
+"profileType": "Business",
+"type": "BANK_ACCOUNT"
 }
