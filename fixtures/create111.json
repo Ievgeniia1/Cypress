@@ -1,0 +1,23 @@
+{
+  "US-USD-BUSINESS": {
+    "countryName": "United States",
+    "transferMethodCountry": "US",
+    "transferMethodCurrency": "USD",
+    "profileType": "Business",
+    "type": "BANK_ACCOUNT"
+  },
+  "US-USD-INDIVIDUAL": {
+    "countryName": "United States",
+    "transferMethodCountry": "US",
+    "transferMethodCurrency": "USD",
+    "profileType": "Individual",
+    "type": "BANK_ACCOUNT"
+  },
+  "RU-RUB-INDIVIDUAL": {
+    "countryName": "Russia",
+    "transferMethodCountry": "RU",
+    "transferMethodCurrency": "RUB",
+    "profileType": "Individual",
+    "type": "BANK_ACCOUNT"
+  }
+}

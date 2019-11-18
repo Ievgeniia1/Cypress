@@ -1,0 +1,10 @@
+{
+  "mainPage": {
+    "one": "this is one",
+    "two:": "this is two"
+  },
+  "otherPage": {
+    "one": "3",
+    "two:": "4"
+  }
+}

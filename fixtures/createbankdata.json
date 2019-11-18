@@ -1,7 +1,7 @@
 {
-"countryName": "United States",
-"transferMethodCountry": "US",
-"transferMethodCurrency": "USD",
-"profileType": "Business",
+"countryName": "Russia",
+"transferMethodCountry": "RU",
+"transferMethodCurrency": "RUB",
+"profileType": "Individual",
 "type": "BANK_ACCOUNT"
 }

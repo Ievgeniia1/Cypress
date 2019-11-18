@@ -1,10 +1,10 @@
-[
-  {
+{
+  "test1": {
     "store": "Amalfi's Italian Restaurant",
     "address": "664 E Long Point Road"
   },
-  {
-    "store": "Test2",
-    "address": "fffds ff f"
+  "test2": {
+    "store": "Charleston Coffee Roasters",
+    "address": "289 Huger Street"
   }
-]
+}

@@ -35,9 +35,9 @@ describe('Crete Bank Account', function() {
     cy.wait(5000);
 
     //function (filename, selector)
-    cy.readFile('cypress/fixtures/US/javaRequest.txt').then(function (data) {
-      cy.get('pre.language-java').should('have.text', data.trim());
-    });
+    // cy.readFile('cypress/fixtures/US/javaRequest.txt').then(function (data) {
+    //   cy.get('pre.language-java').should('have.text', data.trim());
+    // });
 
 
     //this prints data to console to copy from there
@@ -46,13 +46,13 @@ describe('Crete Bank Account', function() {
       console.log((data1).text().trim());
     });
 
-    cy.readFile('cypress/fixtures/US/phpRequest.txt').then(function (data2) {
-      cy.get('pre.language-php').should('have.text', data2.trim());
-    });
-
-    cy.readFile('cypress/fixtures/US/nodeRequest.txt').then(function (data3) {
-      cy.get('pre.language-javascript').should('have.text', data3.trim());
-    });
+    // cy.readFile('cypress/fixtures/US/phpRequest.txt').then(function (data2) {
+    //   cy.get('pre.language-php').should('have.text', data2.trim());
+    // });
+    //
+    // cy.readFile('cypress/fixtures/US/nodeRequest.txt').then(function (data3) {
+    //   cy.get('pre.language-javascript').should('have.text', data3.trim());
+    // });
 
 
   });

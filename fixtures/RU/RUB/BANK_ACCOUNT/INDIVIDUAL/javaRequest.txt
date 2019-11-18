@@ -1,0 +1,17 @@
+Hyperwallet hyperwallet = new Hyperwallet("testuser@12345678", "myAccPassw0rd");
+
+HyperwalletBankAccount response = hyperwallet.createBankAccount("usr-c4292f1a-866f-4310-a289-b916853939de", new HyperwalletBankAccount()
+  .profileType("INDIVIDUAL")
+  .transferMethodCountry("RU")
+  .transferMethodCurrency("RUB")
+  .type("BANK_ACCOUNT")
+  .bankId("40306000")
+  .bankAccountId("40802810400000000000")
+  .bankAccountPurpose("INDIVIDUAL")
+  .firstName("Эльвира")
+  .middleName("Сергеевич")
+  .lastName("Полякова")
+  .country("RU")
+  .addressLine1("Шебашевский Пр., дом 4/К. 2, кв. 68")
+  .city("Москва")
+);
